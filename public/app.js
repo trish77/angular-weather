@@ -7,7 +7,7 @@ app.controller('WeatherController', ['$scope', 'weatherService', function($scope
     }); 
   }
   
-  fetchWeather('84105');
+  fetchWeather('33434');
   
   $scope.findWeather = function(zip) {
     $scope.place = '';
